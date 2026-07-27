@@ -9,6 +9,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5992b6c16d.js" crossorigin="anonymous"></script>
     <title>Razorpay</title>
+
+    <style>
+        .companiesList{
+            animation: 10s infinite linear moveImage;
+        }
+
+        @keyframes moveImage{
+            0%{
+                top: 0;
+            }
+            100%{
+                top: -50%;
+            }
+        }
+    </style>
 </head>
 <body class="overflow-x-hidden">
 
@@ -698,7 +713,7 @@
         </div>
     </section>
 
-    <!-- new features -->
+    <!-- feature section 3 -->
     <section class="bg-white relative">
         <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
             <img src="./images/feature-section1-dottedrows (1).png" alt=""
@@ -753,7 +768,7 @@
                     </div>
                 </div>
                 <!-- card 4 -->
-                 <div class="font-mulish p-10 bg-[url(/images/instant-settlement-bg.svg)] w-full max-h-[300px] cursor-pointer bg-no-repeat hover:scale-105 transition-all duration-200 hover:bg-[url(./images/instant-settlement-bghover.svg)] bg-white shadow-xl rounded-md">
+                 <div class="font-mulish p-10 bg-[url(/images/payment-button-bg.svg)] w-full max-h-[300px] cursor-pointer bg-no-repeat hover:scale-105 transition-all duration-200 hover:bg-[url(./images/payment-button-hoverbg.svg)] bg-white shadow-xl rounded-md">
                     <img src="./images/payment-button (1).svg" alt=""
                     class="w-10 h-10 bg-[#2b84ea] rounded-full">
                     <h3 class="text-lg font-bold pt-4">Payment Button</h3>
@@ -765,7 +780,7 @@
                     </div>
                 </div>
                 <!-- card 5 -->
-                 <div class="font-mulish p-10 bg-[url(/images/instant-settlement-bg.svg)] w-full max-h-[300px] cursor-pointer bg-no-repeat hover:scale-105 transition-all duration-200 hover:bg-[url(./images/instant-settlement-bghover.svg)] bg-white shadow-xl rounded-md">
+                 <div class="font-mulish p-10 bg-[url(/images/instantsettlement-bg.svg)] w-full max-h-[300px] cursor-pointer bg-no-repeat hover:scale-105 transition-all duration-200 hover:bg-[url(./images/instantsettlement-hoverbg.svg)] bg-white shadow-xl rounded-md">
                     <img src="./images/instant-settlement-icon (1).svg" alt=""
                     class="w-10 h-10 bg-[#2b84ea] rounded-full">
                     <h3 class="text-lg font-bold pt-4">Instant Settlements</h3>
@@ -780,7 +795,8 @@
         </div>
     </section>
 
-    <section class="w-full bg-[url(/images/core-features-sectionBg.svg)] bg-no-repeat bg-cover mt-14 relative">
+    <!-- feature section 4 -->
+    <section class="w-full bg-[url(/images/core-features-sectionBg.svg)] py-48 bg-no-repeat bg-cover mt-14 relative">
         <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4 font-mulish">
             <h2 class="font-mulish font-bold text-2xl text-center text-white">Features</h2>
             <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
@@ -792,53 +808,74 @@
                  <div>
                     <img src="./images/instant-activation-icon (1).svg" alt="">
                     <h3  class="font-mulish text-white text-lg font-bold my-4">Instant Activation</h3>
-                    <p class="font-mulish text-white opacity-80">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation. </p>
+                    <p class="font-mulish text-white opacity-80">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
                  </div>
                  <!-- card 2 -->
                  <div>
-                    <img src="./images/instant-activation-icon (1).svg" alt="">
+                    <img src="./images/easy-integration.svg" alt="">
                     <h3  class="font-mulish text-white text-lg font-bold my-4">Easy Integration</h3>
-                    <p class="font-mulish text-white opacity-80">With plugins for all major platforms and languages, integrate and go live with Razorpay in less than an hour. </p>
+                    <p class="font-mulish text-white opacity-80">With plugins for all major platforms and languages, integrate and go live with Razorpay in less than an hour.</p>
                  </div>
                  <!-- card 3 -->
                  <div>
-                    <img src="./images/instant-activation-icon (1).svg" alt="">
+                    <img src="./images/api-driven-icon (1).svg" alt="">
                     <h3  class="font-mulish text-white text-lg font-bold my-4">API Driven</h3>
                     <p class="font-mulish text-white opacity-80">Build your business for scale with our complete API-driven automation that requires zero manual intervention.</p>
                  </div>
                  <!-- card 4 -->
                  <div>
-                    <img src="./images/instant-activation-icon (1).svg" alt="">
+                    <img src="./images/payment-modes (1).svg" alt="">
                     <h3  class="font-mulish text-white text-lg font-bold my-4">100+ payment modes</h3>
                     <p class="font-mulish text-white opacity-80">Offer your customers the luxury of all payment modes including Credit/Debit cards, Netbanking, UPI, Wallets etc.</p>
                  </div>
                  <!-- card 5 -->
                  <div>
-                    <img src="./images/instant-activation-icon (1).svg" alt="">
+                    <img src="./images/simple-pricing (1).svg" alt="">
                     <h3  class="font-mulish text-white text-lg font-bold my-4">Simple Pricing</h3>
                     <p class="font-mulish text-white opacity-80">Our innovative payment solutions with competitive pricing make payments simpler.</p>
                  </div>
                  <!-- card 6 -->
                  <div>
-                    <img src="./images/instant-activation-icon (1).svg" alt="">
+                    <img src="./images/industry-support-icon (1).svg" alt="">
                     <h3  class="font-mulish text-white text-lg font-bold my-4">Best in Industry Support</h3>
                     <p class="font-mulish text-white opacity-80">Always available email, phone and chat based support to help you in your every step.</p>
                  </div>
                  <!-- card 7 -->
                  <div>
-                    <img src="./images/instant-activation-icon (1).svg" alt="">
+                    <img src="./images/dashboard-reporting-icon (1).svg" alt="">
                     <h3  class="font-mulish text-white text-lg font-bold my-4">Dashboard Reporting</h3>
                     <p class="font-mulish text-white opacity-80">Real-time data and insights on your Razorpay Dashboard to make informed business decisions. </p>
                  </div>
                  <!-- card 8 -->
                  <div>
-                    <img src="./images/instant-activation-icon (1).svg" alt="">
+                    <img src="./images/secure-icon (1).svg" alt="">
                     <h3  class="font-mulish text-white text-lg font-bold my-4">Secure</h3>
                     <p class="font-mulish text-white opacity-80">PCI DSS Level 1 compliant solution which removes your burden of regulatory compliance.</p>
                  </div>
             </div>
         </div>
     </section>
+
+    <!-- Join rasorpay section -->
+     <section class="bg-[#f5f8fe] relative pt-40 pb-12 -mt-[200px] z-[-1]">
+        <div class="flex flex-row relative w-11/12 max-w-[1080px] mx-auto">
+            <!-- left part -->
+            <div class="flex flex-col justify-center max-w-[calc(100%-500px)] font-mulish">
+                <h2 class="font-extrabold text-2xl text-deepBlueHead">Join the 50,00,000+ businesses using Razorpay</h2>
+                <div class="w-6 h-1 bg-greenLight mb-10 my-4"></div>
+                <p class=" opacity-80">We make it easier for you to focus on building great products while we work on simplifying your payments. Become one of us by joining thousands of our happy users and simplify the online payment experience for your customers.</p>
+                <p class="mt-6 opacity-80">Focus on your business while we handle the complexities of payments for you.</p>
+            </div>
+
+            <!-- right part -->
+            <div class="w-[500px] h-[500px] relative overflow-y-hidden">
+                <div class="absolute w-full h-[150px] z-10 top-0 bg-linear-180 from-[#f4f8ff] to-[#fff0]"></div>
+                <div class="absolute w-full h-[150px] z-10 bottom-0 bg-linear-360 from-[#f4f8ff] to-[#fff0]"></div>
+                <img src="./images/comanies (1).png" alt="" 
+                class="companiesList absolute">
+            </div>
+        </div>
+     </section>
 
 </body>
 </html>
